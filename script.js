@@ -11,7 +11,7 @@ setInterval(() => {
 
   setTimeout(() => heart.remove(), 6000);
 }, 500);
-// 🎵 Playlist Feature
+// Playlist Feature
 const playlist = ["song1.mp3", "song2.mp3"]; // Add your MP3 file names here
 let current = 0;
 const player = document.getElementById("musicPlayer");
